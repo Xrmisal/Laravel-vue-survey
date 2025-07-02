@@ -1,0 +1,143 @@
+Date : 2025-06-27 10:32:47
+Directory : /home/xrmisal/Desktop/PHP/laravel-vue-survey
+Total : 76 files,  12640 codes, 821 comments, 553 blanks, all 14014 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          5 |     10,152 |          0 |          5 |     10,157 |
+| PHP        |         45 |      1,125 |        776 |        384 |      2,285 |
+| vue        |         10 |        935 |         44 |        105 |      1,084 |
+| JavaScript |          8 |        327 |          1 |         26 |        354 |
+| Markdown   |          2 |         43 |          0 |         25 |         68 |
+| XML        |          3 |         35 |          0 |          1 |         36 |
+| HTML       |          1 |         13 |          0 |          1 |         14 |
+| PostCSS    |          2 |         10 |          0 |          6 |         16 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                           |         76 |     12,640 |        821 |        553 |     14,014 |
+| . (Files)                                                                                                                   |          6 |      8,394 |          0 |         28 |      8,422 |
+| app                                                                                                                         |         12 |        248 |         67 |         76 |        391 |
+| app/Http                                                                                                                    |          6 |        168 |         39 |         44 |        251 |
+| app/Http/Controllers                                                                                                        |          3 |        107 |         17 |         29 |        153 |
+| app/Http/Requests                                                                                                           |          2 |         40 |         17 |         11 |         68 |
+| app/Http/Resources                                                                                                          |          1 |         21 |          5 |          4 |         30 |
+| app/Models                                                                                                                  |          5 |         68 |         20 |         27 |        115 |
+| app/Providers                                                                                                               |          1 |         12 |          8 |          5 |         25 |
+| bootstrap                                                                                                                   |          2 |         19 |          2 |          5 |         26 |
+| config                                                                                                                      |         12 |        511 |        622 |        217 |      1,350 |
+| database                                                                                                                    |         11 |        284 |         73 |         52 |        409 |
+| database/factories                                                                                                          |          1 |         25 |         14 |          6 |         45 |
+| database/migrations                                                                                                         |          9 |        245 |         54 |         41 |        340 |
+| database/seeders                                                                                                            |          1 |         14 |          5 |          5 |         24 |
+| public                                                                                                                      |          1 |         10 |          4 |          7 |         21 |
+| resources                                                                                                                   |          4 |         14 |          0 |          6 |         20 |
+| resources/css                                                                                                               |          1 |          9 |          0 |          3 |         12 |
+| resources/js                                                                                                                |          2 |          4 |          0 |          3 |          7 |
+| resources/views                                                                                                             |          1 |          1 |          0 |          0 |          1 |
+| routes                                                                                                                      |          3 |         25 |          0 |         14 |         39 |
+| tests                                                                                                                       |          3 |         27 |          8 |         13 |         48 |
+| tests (Files)                                                                                                               |          1 |          6 |          1 |          4 |         11 |
+| tests/Feature                                                                                                               |          1 |         11 |          4 |          5 |         20 |
+| tests/Unit                                                                                                                  |          1 |         10 |          3 |          4 |         17 |
+| vue                                                                                                                         |         22 |      3,108 |         45 |        135 |      3,288 |
+| vue (Files)                                                                                                                 |          5 |      1,868 |          1 |          8 |      1,877 |
+| vue/public                                                                                                                  |          1 |          1 |          0 |          0 |          1 |
+| vue/src                                                                                                                     |         16 |      1,239 |         44 |        127 |      1,410 |
+| vue/src (Files)                                                                                                             |          4 |         27 |          0 |         14 |         41 |
+| vue/src/assets                                                                                                              |          1 |          1 |          0 |          0 |          1 |
+| vue/src/components                                                                                                          |          4 |        399 |         32 |         53 |        484 |
+| vue/src/components (Files)                                                                                                  |          3 |        145 |         13 |         25 |        183 |
+| vue/src/components/editor                                                                                                   |          1 |        254 |         19 |         28 |        301 |
+| vue/src/router                                                                                                              |          1 |         72 |          0 |          8 |         80 |
+| vue/src/store                                                                                                               |          1 |        211 |          0 |          5 |        216 |
+| vue/src/views                                                                                                               |          5 |        529 |         12 |         47 |        588 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                    | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/README.md                                                                      | Markdown   |         40 |          0 |         22 |         62 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Http/Controllers/AuthController.php                                        | PHP        |         60 |          1 |         14 |         75 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Http/Controllers/Controller.php                                            | PHP        |          5 |          1 |          3 |          9 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Http/Controllers/SurveyController.php                                      | PHP        |         42 |         15 |         12 |         69 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Http/Requests/StoreSurveyRequest.php                                       | PHP        |         25 |          8 |          6 |         39 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Http/Requests/UpdateSurveyRequest.php                                      | PHP        |         15 |          9 |          5 |         29 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Http/Resources/SurveyResource.php                                          | PHP        |         21 |          5 |          4 |         30 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Models/Survey.php                                                          | PHP        |         24 |          0 |          8 |         32 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Models/SurveyAnswer.php                                                    | PHP        |          6 |          1 |          4 |         11 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Models/SurveyQuestion.php                                                  | PHP        |          6 |          1 |          4 |         11 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Models/SurveyQuestionAnswer.php                                            | PHP        |          6 |          1 |          4 |         11 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Models/User.php                                                            | PHP        |         26 |         17 |          7 |         50 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/app/Providers/AppServiceProvider.php                                           | PHP        |         12 |          8 |          5 |         25 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/bootstrap/app.php                                                              | PHP        |         15 |          2 |          3 |         20 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/bootstrap/providers.php                                                        | PHP        |          4 |          0 |          2 |          6 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/composer.json                                                                  | JSON       |         77 |          0 |          1 |         78 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/composer.lock                                                                  | JSON       |      8,215 |          0 |          1 |      8,216 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/app.php                                                                 | PHP        |         22 |         82 |         23 |        127 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/auth.php                                                                | PHP        |         28 |         74 |         14 |        116 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/cache.php                                                               | PHP        |         57 |         34 |         18 |        109 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/cors.php                                                                | PHP        |         11 |         12 |         12 |         35 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/database.php                                                            | PHP        |        109 |         43 |         23 |        175 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/filesystems.php                                                         | PHP        |         36 |         32 |         13 |         81 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/logging.php                                                             | PHP        |         79 |         33 |         21 |        133 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/mail.php                                                                | PHP        |         57 |         43 |         19 |        119 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/queue.php                                                               | PHP        |         52 |         44 |         17 |        113 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/sanctum.php                                                             | PHP        |         17 |         54 |         14 |         85 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/services.php                                                            | PHP        |         20 |         11 |          8 |         39 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/config/session.php                                                             | PHP        |         23 |        160 |         35 |        218 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/factories/UserFactory.php                                             | PHP        |         25 |         14 |          6 |         45 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/0001_01_01_000000_create_users_table.php                   | PHP        |         38 |          6 |          6 |         50 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/0001_01_01_000001_create_cache_table.php                   | PHP        |         25 |          6 |          5 |         36 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/0001_01_01_000002_create_jobs_table.php                    | PHP        |         46 |          6 |          6 |         58 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/2025_06_20_133750_create_surveys_table.php                 | PHP        |         25 |          6 |          4 |         35 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/2025_06_20_133910_create_survey_questions_table.php        | PHP        |         24 |          6 |          4 |         34 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/2025_06_20_133923_create_survey_answers_table.php          | PHP        |         21 |          6 |          4 |         31 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/2025_06_20_133939_create_survey_question_answers_table.php | PHP        |         23 |          6 |          4 |         33 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/2025_06_20_151426_create_personal_access_tokens_table.php  | PHP        |         24 |          6 |          4 |         34 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/migrations/2025_06_27_090943_add_image_column_to_surveys_table.php    | PHP        |         19 |          6 |          4 |         29 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/database/seeders/DatabaseSeeder.php                                            | PHP        |         14 |          5 |          5 |         24 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/package.json                                                                   | JSON       |         17 |          0 |          1 |         18 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/phpunit.xml                                                                    | XML        |         33 |          0 |          1 |         34 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/public/index.php                                                               | PHP        |         10 |          4 |          7 |         21 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/resources/css/app.css                                                          | PostCSS    |          9 |          0 |          3 |         12 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/resources/js/app.js                                                            | JavaScript |          1 |          0 |          1 |          2 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/resources/js/bootstrap.js                                                      | JavaScript |          3 |          0 |          2 |          5 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/resources/views/index.blade.php                                                | PHP        |          1 |          0 |          0 |          1 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/routes/api.php                                                                 | PHP        |         14 |          0 |          8 |         22 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/routes/console.php                                                             | PHP        |          6 |          0 |          3 |          9 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/routes/web.php                                                                 | PHP        |          5 |          0 |          3 |          8 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/tests/Feature/ExampleTest.php                                                  | PHP        |         11 |          4 |          5 |         20 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/tests/TestCase.php                                                             | PHP        |          6 |          1 |          4 |         11 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/tests/Unit/ExampleTest.php                                                     | PHP        |         10 |          3 |          4 |         17 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vite.config.js                                                                 | JavaScript |         12 |          0 |          2 |         14 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/README.md                                                                  | Markdown   |          3 |          0 |          3 |          6 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/index.html                                                                 | HTML       |         13 |          0 |          1 |         14 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/package-lock.json                                                          | JSON       |      1,809 |          0 |          1 |      1,810 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/package.json                                                               | JSON       |         34 |          0 |          1 |         35 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/public/vite.svg                                                            | XML        |          1 |          0 |          0 |          1 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/App.vue                                                                | vue        |          7 |          0 |          5 |         12 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/assets/vue.svg                                                         | XML        |          1 |          0 |          0 |          1 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/axios.js                                                               | JavaScript |         10 |          0 |          3 |         13 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/components/AuthLayout.vue                                              | vue        |         21 |          3 |          7 |         31 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/components/DefaultLayout.vue                                           | vue        |        105 |         10 |         13 |        128 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/components/PageComponent.vue                                           | vue        |         19 |          0 |          5 |         24 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/components/editor/QuestionEditor.vue                                   | vue        |        254 |         19 |         28 |        301 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/main.js                                                                | JavaScript |          9 |          0 |          3 |         12 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/router/index.js                                                        | JavaScript |         72 |          0 |          8 |         80 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/store/index.js                                                         | JavaScript |        211 |          0 |          5 |        216 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/style.css                                                              | PostCSS    |          1 |          0 |          3 |          4 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/views/Dashboard.vue                                                    | vue        |          8 |          0 |          1 |          9 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/views/Login.vue                                                        | vue        |         62 |          0 |         12 |         74 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/views/Register.vue                                                     | vue        |         58 |          0 |          7 |         65 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/views/SurveyView.vue                                                   | vue        |        304 |         12 |         21 |        337 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/src/views/Surveys.vue                                                      | vue        |         97 |          0 |          6 |        103 |
+| /home/xrmisal/Desktop/PHP/laravel-vue-survey/vue/vite.config.js                                                             | JavaScript |          9 |          1 |          2 |         12 |
+| Total                                                                                                                       |            |     12,640 |        821 |        553 |     14,014 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
