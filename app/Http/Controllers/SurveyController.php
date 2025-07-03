@@ -48,7 +48,13 @@ class SurveyController extends Controller
         
         return new SurveyResource($survey);
     }
-    
+
+        // Get Survey by slug function
+    public function showForGuest(Survey $survey)
+    {
+        return new SurveyResource($survey);
+    }
+
     /**
     * Display the specified resource.
     */
