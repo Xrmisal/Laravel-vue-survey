@@ -12,6 +12,16 @@ if (question.type === "checkbox") {
     model = ref({})
 }
 
+function onCheckboxChange($event) {
+    const selectedOptions = []
+    for (let uuid in model.value) {
+        if (model.value[uuid]) {
+            selectedOptions.push(uuid)
+        }
+    }
+    emits("update:modelValue", selectedOptions)
+}
+
 </script>
 
 <template>
@@ -56,7 +66,6 @@ if (question.type === "checkbox") {
 
             </div>
             <div v-else-if="question.type === 'checkbox'">
-                <pre>{{ model }}</pre>
                 <div
                 v-for="(option, ind) of question.data.options"
                 :key="option.uuid"
@@ -75,13 +84,13 @@ if (question.type === "checkbox") {
                 <input type="text"
                 :value="modelValue"
                 @input="emits('update:modelValue', $event.target.value)"
-                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                class="mt-1 px-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
             </div>
             <div v-else-if="question.type === 'textarea'">
                 <textarea
                 :value="modelValue"
                 @input="emits('update:modelValue', $event.target.value)"
-                class="mt-1 focus:ring-indigo-500 focus:border-ring-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                class="mt-1 px-1 focus:ring-indigo-500 focus:border-ring-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 >
 
                 </textarea>
