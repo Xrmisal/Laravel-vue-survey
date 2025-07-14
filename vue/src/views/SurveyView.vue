@@ -4,16 +4,17 @@ import QuestionEditor from '../components/editor/QuestionEditor.vue';
 
 import { v4 as uuidv4 } from "uuid"
 import { ref, watch, computed } from "vue"
-import { routerKey, useRoute, useRouter } from "vue-router"
-import store from "../store"
+import { useRoute, useRouter } from "vue-router"
+import {useStore} from "vuex"
 
+const store = useStore()
 const router = useRouter();
 const route = useRoute();
 const surveyLoading = computed(() => store.state.currentSurvey.loading)
 // Create empty survey
 let model = ref({
     title: "",
-    status:false,
+    status: false,
     description: null,
     image: null,
     image_url: null,
@@ -29,7 +30,7 @@ watch(
 (newVal, oldVal) => {
     model.value = {
         ...JSON.parse(JSON.stringify(newVal)),
-        status: newVal.status !== "draft",
+        status: newVal.status,
     }
 }
 )
@@ -290,6 +291,8 @@ function deleteSurvey() {
             id="status"
             name="status"
             v-model="model.status"
+            :true-value="true"
+            :false-value="false"
             class="
                                 focus:ring-indigo-500
                                 h-4
